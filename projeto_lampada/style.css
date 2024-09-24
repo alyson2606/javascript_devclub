@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    border: solid red 1px;
+    align-items: center;
+}
+
+#lampada{
+    width: 20vw
+}
+
+.botao_de_ligar {
+    width: 11vw;
+    border-radius: 8vw;
+    overflow: hidden;
+    margin-top: 6vw;
+}
+
+#imagem_botao {
+    width: 100%; /* Ajusta a imagem para ocupar todo o botão */
+    border-radius: 15px; /* Aplica bordas arredondadas à imagem também */
+}
+
