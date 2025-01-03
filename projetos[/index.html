@@ -14,6 +14,10 @@
         min-height: 100vh;
       }
 
+      #texto{
+        color: white;
+      }
+
     </style>
   </head>
   <body>
@@ -38,68 +42,77 @@
     </header>
 
   <main style="background-color: #eec951;">
-    <a href=""> <img src="./img/WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png" class="rounded float-end" alt="..." style="width: 100px; border: solid; position: fixed; z-index: 1; bottom: 20px; right: 20px;"> </a>
-    
-    <div class="container text-center" style="border: solid 1px ;"> 
-      <div class="row align-items-center">
-        <div class="card ms-5 mt-3" style="width: 18rem;">
-          <img src="./img/Cars_Lighting_Mcqueen.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
+  <a href="">
+    <img src="./img/WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png" 
+         class="rounded float-end" 
+         alt="..." 
+         style="width: 100px; border: solid; position: fixed; z-index: 1; bottom: 20px; right: 20px;">
+  </a>
+  
+  <div class="container text-center" >
+    <!-- Use Flexbox para alinhar os cards em uma linha -->
+    <div class="d-flex flex-row flex-wrap justify-content-center">
+      <!-- Card 1 -->
+      <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;
+
+" id="texto">
+        <img src="./img/Ovos_Brancos.png" class="card-img-top " alt="..." style="border: solid 1.5px black; border-radius: 20px;">
+        <div class="card-body">
+          <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">An item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A second item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
+        </ul>
+      </div>
 
-        <div>
-
-        </div style="background-color: #eec951">
-          <div class="card ms-5 mt-3" style="width: 18rem;">
-            <img src="./img/Cars_Lighting_Mcqueen.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-          </div>
-
-          <div class="card ms-5 mt-3" style="width: 18rem;">
-            <img src="./img/Cars_Lighting_Mcqueen.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60) ;">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-          </div>
-
-          <div class="card ms-5 mt-3" style="width: 18rem; background-color: rgba(28, 28, 255, 0.89);">
-            <img src="./img/Cars_Lighting_Mcqueen.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
-              <p class="card-text text-white ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul>
-          </div>
+      <!-- Card 2 -->
+      <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;" id="texto" >
+        <img src="./img/Ovos_Brancos.png" class="card-img-top" alt="..." style="border: solid 1.5px black; border-radius: 20px;">
+        <div class="card-body" >
+          <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">An item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A second item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
+        </ul>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card m-3" style="width: 18rem; border-radius: 20px; background-color: #344E41;" id="texto">
+        <img src="./img/Ovos_Vermelhos.png" class="card-img-top" alt="..." style="border: solid 1.5px black; border-radius: 20px;">
+        <div class="card-body">
+          <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="texto" style="background-color: #344E41;" >An item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A second item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
+        </ul>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;">
+        <img src="./img/Ovos_Vermelhos.png" class="card-img-top" alt="..." style="border: solid 1.5px black; border-radius: 20px;">
+        <div class="card-body">
+          <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
+          <p class="card-text" id="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">An item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A second item</li>
+          <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
+        </ul>
       </div>
     </div>
-  </main>
+  </div>
+</main>
+
 
   
 
