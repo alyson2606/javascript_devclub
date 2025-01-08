@@ -27,6 +27,20 @@
     #special-section .card {
       box-shadow: 0 4px 8px rgba(73, 66, 66, 0.9);
     }
+
+    section .card{
+      background-color: #9b9b9b;
+      height: 20rem;
+    }
+
+    section img{
+      margin-bottom: 20px;
+    }
+
+    section p{
+      color: white;
+      font-style: italic;
+    }
   </style>
 </head>
 
@@ -66,9 +80,7 @@
       <!-- Use Flexbox para alinhar os cards em uma linha -->
       <div class="d-flex flex-row flex-wrap justify-content-center">
         <!-- Card 1 -->
-        <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;
-
-" id="texto">
+        <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;" id="texto">
           <img src="./img/Ovos_Brancos.png" class="card-img-top " alt="..."
             style="border: solid 1.5px black; border-radius: 20px;">
           <div class="card-body">
@@ -130,27 +142,63 @@
             <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
           </ul>
         </div>
+
+        <div class="card m-3" style="width: 18rem; background-color: #344E41; border-radius: 20px;" id="texto">
+          <img src="./img/ovo_capoeira.png" class="card-img-top" alt="..."
+            style="border: solid 1.5px black; border-radius: 20px;">
+          <div class="card-body">
+            <h5 class="card-title fst-italic" style="color: rgb(60, 216, 60);">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" id="texto" style="background-color: #344E41;">An item</li>
+            <li class="list-group-item" id="texto" style="background-color: #344E41;">A second item</li>
+            <li class="list-group-item" id="texto" style="background-color: #344E41;">A third item</li>
+          </ul>
+        </div>
+
       </div>
     </div>
     <br>
     <br>
   </main>
-  <section id="special-section" style="background-color: #eec951;">
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-      </div>
-    </div>
+  <section id="special-section" style=" background: linear-gradient(180deg, #fde16e, #fff387);
+">
+    <div class="container text-center">
+      <div class="d-flex flex-row flex-wrap justify-content-center grid gap-3">
+      
+        <h1>Nossas Vantagens:</h1>
+        <h3>Confiando no grupo <b style="color: rgb(207, 72, 72);">China Ovos</b> suas vantagens são garantidas. Veja algumas: </h3>
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/meodas.webp" class="card-img-top" alt="..." style="height: 120px; width: 210px; margin-left: 30px; margin-top: 20px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/cronômetro.png" class="card-img-top" alt="..." style="height: 120px; width: 130px; margin-left: 80px; margin-top: 20px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./img/selecionado.png" class="card-img-top" alt="..." style="height: 140px; width: 140px; margin-top: 10px; margin-left: 75px;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            </div>
+          </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-      </div>
+      </div> 
     </div>
+    <br>
+    <br>
+   
   </section>
 
 
